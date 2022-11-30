@@ -1,3 +1,66 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    background-color: #001821;
+    color: #ffffff;
+    font: 400 16px/1.42 'Open Sans', Helvetica, sans-serif;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+.container {
+    position: absolute;
+    margin: 0 auto;
+    width: 1141px;
+}
+
+.main-page-wrapper {
+    background: url();
+}
+
+.header {
+    height: 120px;
+    position: relative;
+}
+.logo {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 390px;
+}
+
+.menu {
+    position: relative;
+    width: 264px;
+    height: 19px;
+    left: 554px;
+    top: 42px;
+    margin-right: 50px;
+}
+
+.menu__list {
+    position: relative;
+    display: inline-block;
+    top: 42px;
+    lef: 554px;
+    
+}
+
+.contacts {
+    position: absolute;
+    top: 26px;
+    right: 0;
+}
+.workhours {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
